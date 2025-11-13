@@ -14,14 +14,3 @@ async def root():
         "message": "GraphQL server with multipart subscription support",
         "graphql": "/graphql"
     }
-
-
-def main():
-    print("Starting FastAPI server with multipart subscription support...")
-    print("GraphQL endpoint: http://0.0.0.0:8000/graphql")
-    print("GraphQL IDE: http://0.0.0.0:8000/graphql (browser)")
-    uvicorn.run(app, host="0.0.0.0", port=8080)
-
-
-if __name__ == "__main__":
-    main()
