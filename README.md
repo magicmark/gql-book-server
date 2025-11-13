@@ -22,7 +22,7 @@ subscription {
 ...or with curl:
 
 ```bash
-curl -XPOST http://0.0.0.0:8080/graphql \
+curl -XPOST https://gql-book-server.fly.dev/graphql \
   -H 'content-type: application/json' \
   -H 'accept: multipart/mixed;subscriptionSpec="1.0", application/json' \
   -d '{"query":"subscription { book { id title author } }"}'
