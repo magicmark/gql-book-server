@@ -4,6 +4,6 @@ A GraphQL server with Strawberry and FastAPI, supporting HTTP multipart subscrip
 
 https://www.apollographql.com/docs/graphos/routing/operations/subscriptions/multipart-protocol
 
-## URL
+### Try it out!
 
-https://gql-book-server.fly.dev/graphql
+👉 **Public URL**: https://gql-book-server.fly.dev/graphql
