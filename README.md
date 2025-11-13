@@ -24,6 +24,6 @@ subscription {
 ```bash
 curl -XPOST http://0.0.0.0:8080/graphql \
   -H 'content-type: application/json' \
-  -H 'Accept: multipart/mixed;subscriptionSpec="1.0", application/json' \
-  -d '{"query":"subscription { book(target: 3) { id title author } }"}'
+  -H 'accept: multipart/mixed;subscriptionSpec="1.0", application/json' \
+  -d '{"query":"subscription { book { id title author } }"}'
 ```
